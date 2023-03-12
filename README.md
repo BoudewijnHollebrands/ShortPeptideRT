@@ -1,5 +1,5 @@
 # ShortPeptideRT
-predict RT of short peptides
+ShortPeptideRT is used to predict the retention time of short peptides (<6 amino acids) including homologous structures. 
 
 This is an R-code for a short peptide retention time (RT) prediction model. The code starts with some meta-data, including the title, author, date, version, and the address where the code can be found.
 
