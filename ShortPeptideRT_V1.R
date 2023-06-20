@@ -4,8 +4,8 @@
 # sub: Predicts the retention time of short peptides, including homologous structures.  
 #
 # Author: Boudewijn Hollebrands
-# Date: 12 March 2023
-# Version: 1.0
+# Date: 20 June 2023
+# Version: 1.1
 #
 #
 # Adress: https://github.com/BoudewijnHollebrands/ShortPeptideRT
@@ -17,6 +17,15 @@
 # 2. The ASP-descriptors are calculated  
 # 3. The descriptors are used as input for a pre-trained support vector regression model.
 #---------------------------------------------------------------------
+
+# changes 20 June 2023:     Added required libraries to run the script
+
+# required libraries
+install.packages("Peptides")
+install.packages("caret")
+library(Peptides)
+library(caret)
+
 
 # Change the sequences between "" to predict other Retention times. 
 # For example: input_peptide <- c("WNPV","WNVP") 
